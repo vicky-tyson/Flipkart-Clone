@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500&family=Inclusive+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+
+body{
+       background-color: #c5c5c5;
+}
+
+.navbar{
+          height: 60px;
+          padding-top: 15px;
+          display: flex;
+          background-color: white;
+}
+
+.logo{
+        width: 15%;
+        margin-left: 20px;
+}
+
+.navbar input{
+               width: 700px;
+               height: 40px;
+               border: none;
+               background-color: #e9e9e9;
+               border-top-right-radius: 8px;
+               border-bottom-right-radius: 8px;
+               padding-left: 15px;
+               outline: none;
+}
+
+.navbar button{
+                height: 40px;
+                width: 40px;
+                border: none;
+                border-top-left-radius: 8px;
+                border-bottom-left-radius: 8px;
+                background-color: #e9e9e9;
+}
+
+.navbar button img{
+                       height: 20px;
+                       width: 20px;
+}
+
+.navbar .account{
+                   margin-left: 30px;
+                   display: flex;
+                   margin-top: 5px;
+}
+
+.navbar .account h3{
+                      font-size: 20px;
+                      margin-left: 5px;
+                      position: relative;
+                      bottom: 4px;
+}
+
+.navbar a{
+           text-decoration: none;
+           color: black;
+}
+
+.navbar .cart{
+               width: 50px;
+               height: 50px;
+               margin-left: 30px;
+               display: flex;
+               font-size: large;
+}
+
+.navbar .cart img{
+                    width: 50px;
+                    height: 50px;
+                    position: relative;
+                    bottom: 8px;
+}
+
+.navbar h3{
+             margin-top: 4px;
+}
+
+.navbar .seller{
+                 margin-left: 70px;
+                 display: flex;
+}
+
+.navbar .store-svg{
+                    margin-top: 4px;
+}
+
+.navbar .seller h3{
+                     margin-left: 10px;
+                     margin-top: 5px;
+}
