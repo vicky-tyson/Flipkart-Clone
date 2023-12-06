@@ -11,6 +11,7 @@
                width: 1500px;
                margin-left: 18px;
                margin-right: 18px;
+               background-color: white;
 }
 
 body{
@@ -140,4 +141,28 @@ body{
 .hero-section{
                 margin-top: 20px;
                 overflow: hidden;
+}
+
+.best-of-electronics{
+                        background-color: white;
+                        height: 350px;
+                        margin-top: 20px;
+}
+
+.best-of-electronics-head h2{
+                               padding-top: 10px;
+                               padding-left: 10px;
+}
+
+.best-of-electronics-contents{
+                               display: flex;
+                               align-items: center;
+                               justify-content: center;
+                               justify-content: space-between;
+                               padding: 10px;
+}
+
+.best-of-electronics-contents a{
+                                   text-decoration: none;
+                                   color: black;
 }
