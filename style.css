@@ -145,8 +145,8 @@ body{
 
 .best-of-electronics{
                         background-color: white;
-                        height: 350px;
-                        margin-top: 20px;
+                        height: 340px;
+                        margin-top: 30px;
 }
 
 .best-of-electronics-head h2{
@@ -165,4 +165,35 @@ body{
 .best-of-electronics-contents a{
                                    text-decoration: none;
                                    color: black;
+}
+
+.best-of-electronics-contents .img{
+                                      height: 250px;
+                                      border: 1px solid #999da4;
+                                      border-radius: 2px;
+}
+
+.best-of-electronics-contents .img p{
+                                       text-align: center;
+                                       font-weight: 300;
+}
+
+.best-of-electronics-contents .img .from{
+                                            text-align: center;
+                                            font-weight: 600;
+                                            padding-top: 5px;
+}
+
+.beauty-toys-more{
+               height: 340px;
+               background-color: white;
+               margin-top: 30px;
+}
+
+.beauty-toys-more-contents{
+                             display: flex;
+                             align-items: center;
+                             justify-content: center;
+                             justify-content: space-between;
+                             padding: 10px
 }
