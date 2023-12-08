@@ -224,3 +224,60 @@ body{
                                  border: 1px solid #999da4;
                                  border-radius: 2px;
 }
+
+.sports-healthcare-more{
+                            margin-top: 30px;
+                            height: 320px;
+}
+
+.sports-healthcare-more-head{
+                                 padding-top: 10px;
+                                 padding-left: 10px;
+}
+
+.sports-healthcare-more-contents{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    justify-content: space-between;
+                                    padding: 10px;
+                                    margin-top: 10px;
+}
+
+.sports-healthcare-more-contents p{
+                                     text-align: center;
+}
+
+.sports-healthcare-more-contents a{
+                                       text-decoration: none;
+                                       color: black;
+}
+
+.sports-healthcare-more-contents .img .from{
+                                                 font-weight: 600;
+}
+
+.sports-healthcare-more-contents .img{
+                                           height: 240px;
+                                           border: 1px solid #999da4;
+                                           border-radius: 2px;
+}
+
+.top-rated{
+             margin-top: 30px;
+             height: 500px;
+             width: 48%;
+}
+
+.top-rated-head{
+                   padding-left: 10px;
+                   padding-top: 10px;
+}
+
+.top-rated-contents-1{
+                      display: grid;
+                      grid-template-columns: auto auto;
+                      margin: 10px;
+                      column-gap: 10px;
+                      
+}
