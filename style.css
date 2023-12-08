@@ -278,6 +278,5 @@ body{
                       display: grid;
                       grid-template-columns: auto auto;
                       margin: 10px;
-                      column-gap: 10px;
-                      
+                      column-gap: 10px;             
 }
