@@ -265,7 +265,7 @@ body{
 
 .top-rated{
              margin-top: 30px;
-             height: 500px;
+             height: 650px;
              width: 48%;
 }
 
@@ -278,5 +278,32 @@ body{
                       display: grid;
                       grid-template-columns: auto auto;
                       margin: 10px;
-                      column-gap: 10px;             
+                      column-gap: 200px;
+                      row-gap: 50px;
+                      align-items: center;
+                      justify-content: center; 
+                      margin-top: 20px;            
+}
+
+.top-rated-contents-1 .img{
+                             height: 250px;
+                             width: 180px;
+                             border: 1px solid #999da4;
+                             
+}
+
+.top-rated-contents-1 a{
+                           text-decoration: none;
+                           color: black ;
+}
+
+.top-rated-contents-1 .img p{
+                               padding-left: 15px;
+                               padding-top: 5px;
+}
+
+.top-rated-contents-1 .img .from{
+                                  color: #108934;
+                                  font-weight: 700;
+                                  padding-top: 5px;
 }
